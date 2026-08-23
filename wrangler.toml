@@ -1,0 +1,9 @@
+name = "live-worker2"
+main = "worker.js"
+compatibility_date = "2024-09-01"
+workers_dev = true
+
+# Automatically provisioned by Wrangler / Deploy to Cloudflare.
+# No account-specific namespace ID is required in this template.
+[[kv_namespaces]]
+binding = "KV"

@@ -1,0 +1,19 @@
+{
+  "name": "live-worker2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "cloudflare": {
+    "bindings": {
+      "SOURCE_URLS": {
+        "description": "JSON array of IPTV source URLs, for example: [{\"url\":\"https://example.com/live.m3u\",\"format\":\"m3u\"}]"
+      }
+    }
+  },
+  "devDependencies": {
+    "wrangler": "^4.45.0"
+  }
+}
