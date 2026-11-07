@@ -6,7 +6,7 @@ Minimal Cloudflare Worker for aggregating M3U/TXT sources, with **automatic KV p
 
 Push this folder to a **public GitHub or GitLab repository**, replace `YOUR_PUBLIC_REPO_URL` below with that repository URL, then click:
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/MCFCMARK/gdafhgjh)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/smokindope/live-worker2)
 
 During setup, set `SOURCE_URLS` to a JSON array such as:
 
